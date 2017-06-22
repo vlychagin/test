@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="WheatherReportLV">
+  <DataContextMoniker Name="/WheatherReportLVDataContext" />
+  <nestedChildShapes>
+    <classShape Id="f663f3b4-a3dc-4301-91a7-2ef2ac00edde" absoluteBounds="0.75, 1.125, 2, 1.3862939453125">
+      <DataClassMoniker Name="/WheatherReportLVDataContext/Inhabitatnts" />
+      <nestedChildShapes>
+        <elementListCompartment Id="4dabae3e-f6a2-4657-912f-b671b705120e" absoluteBounds="0.765, 1.585, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="f8483bec-387a-43d1-8efc-93f90a3c8672" absoluteBounds="3.5, 4.25, 2, 1.1939925130208327">
+      <DataClassMoniker Name="/WheatherReportLVDataContext/Precipitations" />
+      <nestedChildShapes>
+        <elementListCompartment Id="0725de98-3876-4c6c-a52b-5538d9de5141" absoluteBounds="3.515, 4.71, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="64c6e76e-5179-432f-a58f-6f82b2485ed9" absoluteBounds="3.5, 1, 2, 1.5785953776041664">
+      <DataClassMoniker Name="/WheatherReportLVDataContext/Regions" />
+      <nestedChildShapes>
+        <elementListCompartment Id="959fc4d7-f18f-48e4-9da4-24d01bb59007" absoluteBounds="3.515, 1.46, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="430c2e85-87bc-4b06-a4a0-36cbecca3288" absoluteBounds="6.25, 0.875, 2, 1.7708968098958329">
+      <DataClassMoniker Name="/WheatherReportLVDataContext/Wheathers" />
+      <nestedChildShapes>
+        <elementListCompartment Id="62b3b01a-6438-4f6f-80bf-026088205d78" absoluteBounds="6.265, 1.335, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(2.75 : 1.81814697265625); (3.5 : 1.81814697265625)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/WheatherReportLVDataContext/Inhabitatnts/Inhabitatnts_Regions" />
+      <nodes>
+        <classShapeMoniker Id="f663f3b4-a3dc-4301-91a7-2ef2ac00edde" />
+        <classShapeMoniker Id="64c6e76e-5179-432f-a58f-6f82b2485ed9" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.5 : 4.84699625651042); (7.25 : 4.84699625651042); (7.25 : 2.64589680989583)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/WheatherReportLVDataContext/Precipitations/Precipitations_Wheathers" />
+      <nodes>
+        <classShapeMoniker Id="f8483bec-387a-43d1-8efc-93f90a3c8672" />
+        <classShapeMoniker Id="430c2e85-87bc-4b06-a4a0-36cbecca3288" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.5 : 1.78929768880208); (6.25 : 1.78929768880208)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/WheatherReportLVDataContext/Regions/Regions_Wheathers" />
+      <nodes>
+        <classShapeMoniker Id="64c6e76e-5179-432f-a58f-6f82b2485ed9" />
+        <classShapeMoniker Id="430c2e85-87bc-4b06-a4a0-36cbecca3288" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="WheatherReportLV" Class="WheatherReportLVDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=.\SQLEXPRESS;Initial Catalog=WheatherReportLV;Integrated Security=True;Encrypt=False;TrustServerCertificate=True" SettingsObjectName="WpfLingToSql.Properties.Settings" SettingsPropertyName="WheatherReportLVConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Inhabitatnts" Member="Inhabitatnts">
+    <Type Name="Inhabitatnts">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Language" Type="System.String" DbType="NVarChar(30) NOT NULL" CanBeNull="false" />
+      <Association Name="Inhabitatnts_Regions" Member="Regions" ThisKey="Id" OtherKey="IdInhabitant" Type="Regions" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Precipitations" Member="Precipitations">
+    <Type Name="Precipitations">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="NVarChar(30) NOT NULL" CanBeNull="false" />
+      <Association Name="Precipitations_Wheathers" Member="Wheathers" ThisKey="Id" OtherKey="IdPrecipitation" Type="Wheathers" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Regions" Member="Regions">
+    <Type Name="Regions">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Title" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Area" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="IdInhabitant" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="Regions_Wheathers" Member="Wheathers" ThisKey="Id" OtherKey="IdRegion" Type="Wheathers" />
+      <Association Name="Inhabitatnts_Regions" Member="Inhabitatnts" ThisKey="IdInhabitant" OtherKey="Id" Type="Inhabitatnts" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Wheathers" Member="Wheathers">
+    <Type Name="Wheathers">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="IdRegion" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Date" Type="System.DateTime" DbType="Date NOT NULL" CanBeNull="false" />
+      <Column Name="Temperature" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="IdPrecipitation" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="Precipitations_Wheathers" Member="Precipitations" ThisKey="IdPrecipitation" OtherKey="Id" Type="Precipitations" IsForeignKey="true" />
+      <Association Name="Regions_Wheathers" Member="Regions" ThisKey="IdRegion" OtherKey="Id" Type="Regions" IsForeignKey="true" />
+    </Type>
+  </Table>
+</Database>

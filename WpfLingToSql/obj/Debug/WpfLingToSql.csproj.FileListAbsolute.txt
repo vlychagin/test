@@ -1,0 +1,15 @@
+D:\Students\ПСД 1-29\17 TP\04 Занятие 16.06.2017\WpfLingToSql\WpfLingToSql\bin\Debug\WpfLingToSql.exe.config
+D:\Students\ПСД 1-29\17 TP\04 Занятие 16.06.2017\WpfLingToSql\WpfLingToSql\bin\Debug\WpfLingToSql.exe
+D:\Students\ПСД 1-29\17 TP\04 Занятие 16.06.2017\WpfLingToSql\WpfLingToSql\bin\Debug\WpfLingToSql.pdb
+D:\Students\ПСД 1-29\17 TP\04 Занятие 16.06.2017\WpfLingToSql\WpfLingToSql\obj\Debug\WpfLingToSql.csprojResolveAssemblyReference.cache
+D:\Students\ПСД 1-29\17 TP\04 Занятие 16.06.2017\WpfLingToSql\WpfLingToSql\obj\Debug\MainWindow.g.cs
+D:\Students\ПСД 1-29\17 TP\04 Занятие 16.06.2017\WpfLingToSql\WpfLingToSql\obj\Debug\App.g.cs
+D:\Students\ПСД 1-29\17 TP\04 Занятие 16.06.2017\WpfLingToSql\WpfLingToSql\obj\Debug\WpfLingToSql_MarkupCompile.cache
+D:\Students\ПСД 1-29\17 TP\04 Занятие 16.06.2017\WpfLingToSql\WpfLingToSql\obj\Debug\WpfLingToSql_MarkupCompile.lref
+D:\Students\ПСД 1-29\17 TP\04 Занятие 16.06.2017\WpfLingToSql\WpfLingToSql\obj\Debug\App.baml
+D:\Students\ПСД 1-29\17 TP\04 Занятие 16.06.2017\WpfLingToSql\WpfLingToSql\obj\Debug\MainWindow.baml
+D:\Students\ПСД 1-29\17 TP\04 Занятие 16.06.2017\WpfLingToSql\WpfLingToSql\obj\Debug\WpfLingToSql.g.resources
+D:\Students\ПСД 1-29\17 TP\04 Занятие 16.06.2017\WpfLingToSql\WpfLingToSql\obj\Debug\WpfLingToSql.Properties.Resources.resources
+D:\Students\ПСД 1-29\17 TP\04 Занятие 16.06.2017\WpfLingToSql\WpfLingToSql\obj\Debug\WpfLingToSql.csproj.GenerateResource.Cache
+D:\Students\ПСД 1-29\17 TP\04 Занятие 16.06.2017\WpfLingToSql\WpfLingToSql\obj\Debug\WpfLingToSql.exe
+D:\Students\ПСД 1-29\17 TP\04 Занятие 16.06.2017\WpfLingToSql\WpfLingToSql\obj\Debug\WpfLingToSql.pdb
