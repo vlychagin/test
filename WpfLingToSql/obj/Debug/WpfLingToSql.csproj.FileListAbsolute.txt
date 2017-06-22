@@ -13,3 +13,11 @@ D:\Students\ПСД 1-29\17 TP\04 Занятие 16.06.2017\WpfLingToSql\WpfLingT
 D:\Students\ПСД 1-29\17 TP\04 Занятие 16.06.2017\WpfLingToSql\WpfLingToSql\obj\Debug\WpfLingToSql.csproj.GenerateResource.Cache
 D:\Students\ПСД 1-29\17 TP\04 Занятие 16.06.2017\WpfLingToSql\WpfLingToSql\obj\Debug\WpfLingToSql.exe
 D:\Students\ПСД 1-29\17 TP\04 Занятие 16.06.2017\WpfLingToSql\WpfLingToSql\obj\Debug\WpfLingToSql.pdb
+D:\Repositories\WpfLingToSql\bin\Debug\WpfLingToSql.exe.config
+D:\Repositories\WpfLingToSql\obj\Debug\WpfLingToSql.exe
+D:\Repositories\WpfLingToSql\obj\Debug\WpfLingToSql.pdb
+D:\Repositories\WpfLingToSql\obj\Debug\WpfLingToSql.csprojResolveAssemblyReference.cache
+D:\Repositories\WpfLingToSql\obj\Debug\MainWindow.g.cs
+D:\Repositories\WpfLingToSql\obj\Debug\App.g.cs
+D:\Repositories\WpfLingToSql\obj\Debug\WpfLingToSql_MarkupCompile.cache
+D:\Repositories\WpfLingToSql\obj\Debug\WpfLingToSql_MarkupCompile.lref
